@@ -12,7 +12,9 @@
 	"bin/heroku-hhvm-nginx"
     ],
     "require": {
-        "ext-mysqlnd": "^0.0.0",
-        "heroku/heroku-buildpack-php": "v110"
+        "ext-mysqlnd": "^0.0.0"
     }
+    "reqire-dev": {
+        "heroku/heroku-buildpack-php": "v110"
+   }
 }
