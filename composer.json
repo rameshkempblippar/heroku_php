@@ -1,8 +1,7 @@
 {
-    "name": "rameshkempblippar/heroku_php",
-    "description": "Toolkit for starting a PHP application locally, using the same config for PHPand Apache2/Nginx as on Heroku",
-    "keywords": ["heroku", "php", "apache", "apache2", "nginx"],
-    "homepage": "https://github.com/rameshkempblippar/heroku_php",
+    "name": "rameshkempanna/heroku_php",
+    "description": "Basic heroku php app",
+    "type": "project",
     "authors": [
         {
             "name": "Ramesh Kempanna",
@@ -10,7 +9,10 @@
         }
     ],
     "bin": [
-        "bin/heroku-php-apache2",
-        "bin/heroku-php-nginx"
-    ]
+	"bin/heroku-hhvm-nginx"
+    ],
+    "require": {
+        "ext-mysqlnd": "^0.0.0",
+        "heroku/heroku-buildpack-php": "v110"
+    }
 }
