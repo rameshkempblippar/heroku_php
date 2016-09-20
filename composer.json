@@ -1,0 +1,16 @@
+{
+    "name": "rameshkempblippar/heroku_php",
+    "description": "Toolkit for starting a PHP application locally, using the same config for PHPand Apache2/Nginx as on Heroku",
+    "keywords": ["heroku", "php", "apache", "apache2", "nginx"],
+    "homepage": "https://github.com/rameshkempblippar/heroku_php",
+    "authors": [
+        {
+            "name": "Ramesh Kempanna",
+            "email": "rameshkemp"
+        }
+    ],
+    "bin": [
+        "bin/heroku-php-apache2",
+        "bin/heroku-php-nginx"
+    ]
+}
