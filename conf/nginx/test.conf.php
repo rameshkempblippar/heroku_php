@@ -1,4 +1,3 @@
 location ~ ^/test/ {
-   root	/app/test_root;
-   index test.php;
+   rewrite ^/test/(.*) /test_root/$1 last;
 }
