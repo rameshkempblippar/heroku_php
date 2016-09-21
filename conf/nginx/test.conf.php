@@ -8,5 +8,5 @@ location ~ ^/(composer\.|Procfile$|<?=getenv('COMPOSER_VENDOR_DIR')?>/|<?=getenv
 }
 
 location ~ ^/test/ {
-   rewrite ^/test/(.*) https://$server_addr/test_root/$1 last;
+   rewrite ^/test/(.*) test_root/$1 last;
 }
