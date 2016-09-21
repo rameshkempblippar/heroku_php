@@ -1,3 +1,3 @@
 <?php
-echo file_get_contents("conf/nginx/test.conf.php");
+echo file_get_contents("test_root/test.php");
 ?>
