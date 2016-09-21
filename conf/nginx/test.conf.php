@@ -1,4 +1,4 @@
 location ~ ^/test/ {
-   root	<?=getenv('HEROKU_APP_DIR')?:getcwd()?>/test_root;
+   root	/app/test_root;
    index test.php;
 }
